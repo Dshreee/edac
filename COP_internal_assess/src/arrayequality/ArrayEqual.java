@@ -4,6 +4,7 @@
 
 package arrayequality;
 import java.util.Scanner;
+import java.util.Arrays;
 
 public class ArrayEqual {
 	private static int arrsize1,arrsize2;
@@ -49,6 +50,9 @@ public class ArrayEqual {
 			System.exit(0);
 		}
 		System.out.println(a1.isEqual(arr1,arr2));
+		//OR
+		System.out.println(Arrays.equals(arr1,arr2));  //use built-in function equals() available in java.util.Arrays package
+		
 
 	}
 
